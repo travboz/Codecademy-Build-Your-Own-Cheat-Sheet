@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Reference</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+</head>
+<body>
+
+<header>
+    <h1>HTML Semantics Reference</h1>
+</header>
+    
+<article>
+    <section>
+        <h2>What is semantics?</h2>
+        <p>Semantic HTML implies that the HTML markup you decide to use should help convey the underlying meaning of the content; and not use an element based solely on its appearance.</p>
+    </section>
+    <section>
+        <h3>Semantic Elements</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Tag</td>
+                    <td>Description</td>
+                    <td>Example of tag use</td>
+                </tr>
+            </thead>
+            <tr>
+                <td><span class="code">&ltarticle&gt</span></td>
+                <td>An article tag is used around content that is self-contained. Could this whole piece be taken out of context and still make sense? If yes, use an article.</td>
+                <td><img src="./img/article_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltsection&gt</span></td>
+                <td>A section element is used to group togetehr thematically related content.</td>
+                <td><img src="./img/section_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltnav&gt</span></td>
+                <td>A section of a page used to provide navigation links, either within the doc or to other documents.</td>
+                <td><img src="./img/nav_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltheader&gt</span></td>
+                <td>A header is meant for for introductory content or a set of navigational links.</td>
+                <td><img src="./img/header_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltfooter&gt</span></td>
+                <td>Essentially, equal to headers but at the end of an article/website.</td>
+                <td><img src="./img/footer_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltaside&gt</span></td>
+                <td>Home to content that is tangentially related to the content around the element.</td>
+                <td><img src="./img/aside_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltfigure&gt</span></td>
+                <td>Filled with self-contained content, potentially with an optional caption. Usually a figure is an image, illustration, diagram, code snippet, etc. that is referenced in the main flow of the doc but can be moved to another part of the document.</td>
+                <td rowspan='2'><img src="./img/figure_example.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><span class="code">&ltfigcaption&gt</span></td>
+                <td>A caption that relates to its parent figure.</td>
+                
+            </tr>
+            
+        </table>
+    </section>
+</article>
+</body>
+</html>
