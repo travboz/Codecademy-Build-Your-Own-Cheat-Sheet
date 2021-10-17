@@ -4,7 +4,5 @@ This project creates a small cheat sheet of tags used in Semantic HTML and expla
 
 **Purpose:** experience deploying a site to the web.<br />
 **Tools:** GitHub Pages, Visual Studio Code.<br />
-**Languages:** HTML, CSS, Markdown.
-
-Build Your Own Cheat Sheet: Semantic HTML 
+**Languages:** HTML, CSS, Markdown.<br /><br />
 https://travboz.github.io/Codecademy-Build-Your-Own-Cheat-Sheet
